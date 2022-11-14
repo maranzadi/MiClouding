@@ -607,7 +607,7 @@
 }
 
 
-@media (max-width: 1300px){
+/*@media (max-width: 1300px){
     #kontuaSortu {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 18px;
@@ -712,7 +712,7 @@
         padding: 1.3rem;
       }
 }
-
+*/
 #Deskripzioa .kontuaSortu {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -733,4 +733,104 @@
     margin-top: 0.5rem;
     top: 5;
     padding: 1.3rem;
+}
+
+
+@media (max-width: 1316px){
+    #Deskripzioa .IMGDeskripzioa {
+        width: 42rem;
+        height: auto;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10rem;
+        top: 10rem;
+        right: -4rem;
+    }
+    #Funtzioak .segurtasuna .IMGSegurtasuna {
+        width: 27rem;
+        height: auto;
+        position: relative;
+        left: 4rem;
+        top: 23rem;
+    
+    }
+
+    #Funtzioak .segurtasuna .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 40rem;
+    }
+
+    #Funtzioak .segurtasuna .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 40rem;
+    }
+
+    #Funtzioak .sarbideAzkarra .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 4rem;
+    }
+    #Funtzioak .sarbideAzkarra .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 4rem;
+    }
+    #Funtzioak .sarbideAzkarra .IMGSarbideAzkarra {
+        width: 40rem;
+        height: auto;
+        position: relative;
+        left: 37rem;
+        top: 20rem;
+    }
+
+    #Funtzioak .erabilpenPertsonalizatua .IMGErabilpen {
+        width: 27rem;
+        height: auto;
+        position: relative;
+        left: 4rem;
+        top: 19rem;
+    }
+    #Funtzioak .erabilpenPertsonalizatua .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 39rem;
+    }
+
+    #Funtzioak .erabilpenPertsonalizatua .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 39rem;
+    }
 }
