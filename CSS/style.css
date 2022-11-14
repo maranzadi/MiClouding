@@ -11,7 +11,7 @@
     --subir-link: -8.7rem;
     --subir-kontua-sortu: -10.25rem;
     --subir-saioa-hasi: -10.25rem;
-}    
+}     
     
    
 #logo {
@@ -507,4 +507,230 @@
     padding: 1rem;
     border-radius: 3rem;
     margin-bottom: 20rem;
+}
+
+
+@media (max-width: 1632px){
+    #Deskripzioa .kontuaSortu{
+        margin-left: 89rem;
+        position: relative;
+        right: 89rem;
+        top: 0.5rem;
+    }
+
+    #Deskripzioa .kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        margin-right: 12px;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        padding: 1.3rem;
+    }
+
+    #Deskripzioa .IMGDeskripzioa {
+        width: 42rem;
+        height: auto;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10rem;
+        top: 10rem;
+        right: 4rem;
+    }
+
+    #Funtzioak .sarbideAzkarra .IMGSarbideAzkarra {
+        width: 40rem;
+        height: auto;
+        position: relative;
+        left: 54rem;
+        top: 20rem;
+    }
+
+    #Funtzioak .erabilpenPertsonalizatua .IMGErabilpen {
+        width: 27rem;
+        height: auto;
+        position: relative;
+        left: 10rem;
+        top: 19rem;
+    }
+
+    #Funtzioak .erabilpenPertsonalizatua .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 55rem;
+    }
+
+    #Funtzioak .erabilpenPertsonalizatua .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 55rem;
+    }
+
+    #kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        max-height: 4rem;
+        min-height: 4rem;
+        margin-left: -284px;
+        margin-right: 12px;
+        margin-top: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        margin-top: 1.2rem;
+        margin-top: 0.5rem;
+        top: var(--subir-kontua-sortu);
+        padding: 1.3rem;
+    }
+}
+
+
+@media (max-width: 1300px){
+    #kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        max-height: 4rem;
+        min-height: 4rem;
+        margin-left: -428px;
+        margin-right: 12px;
+        margin-top: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        margin-top: 1.2rem;
+        margin-top: 0.5rem;
+        top: var(--subir-kontua-sortu);
+        padding: 1.3rem;
+    }
+
+    #Funtzioak .sarbideAzkarra .IMGSarbideAzkarra {
+        width: 39rem;
+        height: auto;
+        position: relative;
+        left: 47rem;
+        top: 20rem;
+    }
+
+    #Funtzioak .sarbideAzkarra .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 8rem;
+    }
+
+    #Funtzioak .sarbideAzkarra .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 8rem;
+    }
+
+    #Funtzioak .segurtasuna .IMGSegurtasuna {
+        width: 27rem;
+        height: auto;
+        position: relative;
+        left: 6rem;
+        top: 23rem;
+    }
+
+    #Funtzioak .segurtasuna .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 43rem;
+    }
+
+    #Funtzioak .segurtasuna .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 43rem;
+    }
+    #Deskripzioa .kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        max-height: -10rem;
+        min-height: -17rem;
+        margin-right: -274px;
+        margin-top: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        margin-top: 1.2rem;
+        margin-top: 0.5rem;
+        top: 5;
+        padding: 1.3rem;
+      }
+}
+
+#Deskripzioa .kontuaSortu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: .25px;
+    max-height: -10rem;
+    min-height: -17rem;
+    margin-right: 12px;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: var(--secondariBlueColor);
+    text-decoration: none;
+    border-radius: 2rem;
+    position: relative;
+    margin-top: 1.2rem;
+    margin-top: 0.5rem;
+    top: 5;
+    padding: 1.3rem;
 }
