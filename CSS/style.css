@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root { 
+  
+    --main-leter-color: rgb(80, 80, 80);
+    --underline: #00f;
+    --underlineSecondary: rgb(64, 74, 179);
+    --secondariBlueColor: rgb(90, 97, 177);
+    --secondariBlueColorHover: rgb(64, 74, 179);
+    --subir: -4.8rem;
+    --subir-link: -8.7rem;
+    --subir-kontua-sortu: -10.25rem;
+    --subir-saioa-hasi: -10.25rem;
+}    
+    
+   
+#logo {
+    height: 3.85104375rem;
+    width: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    fill: red;
+    margin-left: 0.75rem;
+}
+
+#name {
+    font-size: 25px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 1.5rem;
+    top: var(--subir);
+    position: relative;
+    margin-left: 9rem;
+    max-width: 6rem;
+}  
+ 
+
+#name:hover {
+    color: var(--secondariBlueColor);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    max-height: 77.6167px;
+    background-color: white;
+
+    z-index: 10000;
+}
+
+#link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: .25px;
+    max-height: 48px;
+    min-height: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+    top: var(--subir-link);
+} 
+
+#link:link { /*Ez dena bisitatu*/
+    color: var(--main-leter-color)
+}
+#link:visited { /*Bisitado*/
+    color: var(--main-leter-color)
+}
+#link:hover { /*Aratoia bere gaienean*/
+    color: black;
+    /*font-size: 20px;*/
+   
+}
+ 
+#link:active { /*Bere gainean klik egitean*/
+    height: 0px;
+    color: black;
+}
+ 
+
+#link {
+    position: relative;
+    display: inline-block;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+#link:after {
+    width: 0px;
+    background: var(--underline);
+    height: 3px;
+    transition: all .5s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: -1.9rem;
+    right: 0;
+}
+  
+#link.underline:after {
+    width: 100%;
+    left: 0px;
+    color: black;
+}
+  
+#link:hover:after {
+    width: 100%;
+    left: 0px;
+    color: black;
+} 
+
+
+#kontuaSortu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: .25px;
+    max-height: 4rem;
+    /*min-height: 4rem;*/
+    margin-left: 12px;
+    margin-right: 12px;
+    /*margin-top: 1.5rem;*/
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;   
+    background-color: var(--secondariBlueColor);
+    text-decoration: none;
+    border-radius: 2rem;
+    position: relative;
+    margin-top: 1.2rem;
+    margin-top: 0.5rem;
+    top: var(--subir-kontua-sortu);
+    padding: 1.3rem;
+    /*Manex*/
+}
+
+#kontuaSortu:hover {
+    background-color: var(--secondariBlueColorHover);
+}
+
+#saioaHasi {
+    text-decoration: none;
+    color: var(--main-leter-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: .25px;
+    margin-top: 1.5rem;
+    top: var(--subir-saioa-hasi);
+    position: relative;
+}
+
+/*#saioaHasi:hover {
+    font-size: 19px;
+}*/
+
+.links {
+   margin-left: 19.19rem;
+}
+
+.login {
+    margin-left: 100rem;
+}
+
+
+#saioaHasi:after {
+    width: 0px;
+    background: var(--underlineSecondary);
+    height: 3px;
+    transition: all .5s ease-in-out;
+    content: "";
+    position: absolute;
+    bottom: -1.8rem;
+    right: 0;
+}
+   
+#saioaHasi.underline:after {
+    width: 100%;
+    left: 0px;
+}
+   
+#saioaHasi:hover:after {
+    width: 100%;
+    left: 0px;
+} 
+
+/*Gorputza*/
+
+.scroll-container {
+    margin-left: 6rem;
+}
+
+
+/*Deskripzioa*/
+
+#Deskripzioa {
+   margin-left: 12.9526rem;
+ 
+}
+
+#Deskripzioa .titulo {
+    font-size: 60px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 5rem;
+    color: black;
+    margin-top: 19rem;
+}
+
+#Deskripzioa .texto {
+    margin-top: 1rem;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: var(--main-leter-color);
+}
+
+#Deskripzioa .saioaHasi {
+    max-width: 201px;
+    margin-top: 8rem;
+    margin-left: 16rem;
+    bottom: -10rem;
+    font-size: 40;
+}
+
+#Deskripzioa .kontuaSortu{
+    margin-left: 89rem;
+    position: relative;
+    right: 89rem;
+    top: 0.5rem;
+}
+
+#Deskripzioa .kontuaSortu {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: .25px;
+    max-height: 4rem;
+    min-height: 4rem;
+    margin-right: 12px;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: var(--secondariBlueColor);
+    text-decoration: none;
+    border-radius: 2rem;
+    position: relative;
+    margin-top: 1.2rem;
+    margin-top: 0.5rem;
+    padding: 1.3rem;
+    max-width: 16rem;
+}
+
+#Deskripzioa .kontuaSortu:hover {
+    background-color: var(--secondariBlueColorHover);
+}
+
+#Deskripzioa .IMGDeskripzioa {
+    width: 42rem;
+    height: auto;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 10rem;
+    top: 10rem;
+    right: 17rem
+}
+
+/*Segurtasuna*/
+
+#Funtzioak .segurtasuna .IMGSegurtasuna {
+    width: 27rem;
+    height: auto;
+    position: relative;
+    left: 20rem;
+    top: 23rem;
+}
+
+#Funtzioak .segurtasuna .titulo {
+    font-size: 40px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 4rem;
+    color: black;
+    margin-left: 60rem;
+}
+
+#Funtzioak .segurtasuna .texto {
+    margin-top: 2rem;
+    font-size: 12px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    color: black;
+    margin-left: 60rem;
+}
+
+/*sarbideAzkarra*/
+
+#Funtzioak .sarbideAzkarra .IMGSarbideAzkarra {
+    width: 40rem;
+  height: auto;
+  position: relative;
+  left: 62rem;
+  top: 20rem;
+   /**/
+}
+   
+
+
+#Funtzioak .sarbideAzkarra .titulo {
+    font-size: 40px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 4rem;
+    color: black;
+    margin-left: 15rem;
+}
+
+#Funtzioak .sarbideAzkarra .texto {
+    margin-top: 2rem;
+    font-size: 12px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    color: black;
+    margin-left: 15rem;
+}
+
+/*erabilpenPertsonalizatua*/
+
+#Funtzioak .erabilpenPertsonalizatua .IMGErabilpen {
+    width: 27rem;
+    height: auto;
+    position: relative;
+    left: 19rem;
+    top: 19rem;
+}
+
+#Funtzioak .erabilpenPertsonalizatua .titulo {
+    font-size: 40px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 4rem;
+    color: black;
+    margin-left: 60rem;
+}
+
+#Funtzioak .erabilpenPertsonalizatua .texto {
+    margin-top: 2rem;
+    font-size: 12px;
+    max-width: 29rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    color: black;
+    margin-left: 60rem;
+}
+
+/*Lerroa*/
+
+.lerroa {
+    margin-top: 3.5rem;
+    color: black;
+    width: 95%;
+}
+
+
+/*Gurekin lan egiten duten enpresak*/
+
+#Bezeroak {
+    margin-top: 5rem;
+}
+
+#Bezeroak .titulo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 32px;
+    margin-bottom: 5rem;
+}
+
+#Bezeroak .irudiaZentratu {
+    text-align: center;
+}
+
+#Bezeroak .enpresak {
+    width: 12rem;
+    height: 12rem;
+    margin: 4rem;
+}
+
+#Bezeroak .enpresakECG {
+    width: 19rem;
+    height: 16rem;
+}
+
+#Bezeroak .enpresakXAMPU {
+    width: 16rem;
+    height: 12rem;
+    margin: 4rem;
+}
+
+
+/*Prezioak*/
+
+#Prezioa .titulo {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 32px;
+    margin-bottom: 5rem;
+}
+
+#Prezioa .aukerak {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+
+.table th {
+    max-width: 50px;
+}
+
+.BaiEz {
+    text-align: center;
+}
+
+.go{
+    text-align: center;
+}
+
+
+/*Nortzuk Gara*/
+
+#Nortzuk_gara .titulo {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 32px;
+    margin-bottom: 5rem;
+}
+
+#Nortzuk_gara .textua {
+    margin-top: 2rem;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 1.5rem;
+    color: black;
+    margin-left: 10%;
+}
+
+/*Formulario*/
+
+.gorputza {
+    max-width: 40%;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    max-height: 50rem;
+    min-height: 30rem;
+    margin-top: 10rem;
+}
+
+.tituloa {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 3rem;
+    font-size: 32px;
+    padding-top: 4rem;
+}
+
+.formularioa {
+    margin-top: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px;
+    
+}
+
+#boton {
+    background-color:  var(--secondariBlueColorHover);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 3rem;
+    margin-bottom: 20rem;
+}

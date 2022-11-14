@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>MiClouding</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./IMG/Clouding.svg">
+ 
+</head>     
+<body>   
+           
+    <div class="menu">
+        <!--Logo-->
+        <div class="logo">
+            <img  id="logo" alt="MiClouding logoa" href="./index.html" src="./IMG/Clouding.svg">
+        </div>
+        
+        <!--Name-->
+        <div class="name">
+            <h1 id="name">Mi Clouding</h1>
+        </div>
+        
+        <!--Menu-->
+        <div class="links">
+            <a href="#Deskripzioa"  id="link">Deskripzioa</a>
+            <a href="#Funtzioak"  id="link">Funtzioak</a>
+            <a href="#Bezeroak"  id="link">Bezeroak</a>
+            <a href="#Prezioa"  id="link">Prezioa</a>
+            <a href="#Nortzuk_gara"  id="link">Nortzuk Gara</a>
+        </div>
+        <div class="login">
+        <!--Login-->
+        <a  id="kontuaSortu" href="#Nortzuk_gara">Kontua Sortu</a>
+        <!--Saioa Hasi-->
+        <a href="#Nortzuk_gara"  id="saioaHasi">Saioa Hasi</a>
+        </div>
+        
+        <!--Script to make under line-->
+        <script type="text/javascript">
+            $('a').on('click', function() {
+            $('a').not(this).removeClass('underline');
+            $(this).toggleClass('underline');
+            });
+        </script>   
+    </div>
+
+    
+
+
+    <!--Adonde tiene que ir-->
+    <div class="scroll-container">
+        <div class="scroll-page" id="Deskripzioa">
+        
+            <img src="./IMG/1.jpg" class="IMGDeskripzioa">
+            <div class="titulo">                    
+                Edukirako sarbide erraza eta segurua
+            </div>
+            <div class="texto">Gordetzen diren fitxategiak seguru egongo dira gordeta, eta bata sarbide erraza edukiko dute.</div>
+            <div class="kontuaSortu" href="#Nortzuk_gara">Kontua Sortu</div>
+            <div class="saioaHasi" id="saioaHasi">Saioa Hasi</div>
+           
+        </div>
+        <div class="scroll-page" id="Funtzioak">
+            <!--Segurtasuna-->
+            <div class="segurtasuna">
+                <img src="./IMG/2.jpg" class="IMGSegurtasuna">
+                <div class="titulo">Informazioa seguru gordeta dago</div>
+                <div class="texto">Gure zerbitzarietan, edozein artxibo igotzeko edo deskargatzeko, inoiz ezagutzen ez den informazioa konpaniatzen da, eta antibirus bat pasatzen zaio. Artxiboak azken zifratze-teknologiarekin zifratuta daude. Birusen bat detektatuz gero, berrogeialdian jartzen da eta erabiltzailea egiaztatu ondoren ezabatzen da.</div>
+            </div>
+
+            <!--Sarbide azkarra-->
+            <div class="sarbideAzkarra">
+                <img src="./IMG/3.jpg" class="IMGSarbideAzkarra">
+                <div class="titulo">Sarbide Azkarra edozein lekutik</div>
+                <div class="texto">Gure clouding zerbitzuaren bidez, % 100 artxiboetara sar zaitezke online; beraz, edozein nabigatzailetatik sar zaitezke kredentzialak sartuta, eta baieztapen-mezu bat agertuko zaizu. Mahaigaineko aplikazio bat ere badugu.</div>
+            </div>
+
+            <!--Erabilpen pertsonalizatua-->
+            <div class="erabilpenPertsonalizatua">
+                <img src="./IMG/4.jpg" class="IMGErabilpen">
+                <div class="titulo">Erabilpen pertsonalizatua</div>
+                <div class="texto">
+                    Karpetak nahi duzun bezala pertsonalizatu ahal izango dituzu, planekin % 100 guztia pertsonalizatu ahal izango duzu, edozein xehetasun eta ikusi behar den bezala, baita.</div>
+            </div>
+        </div>
+
+        <hr class="lerroa"></hr>
+
+        <!--Bezeroak-->
+        <div class="scroll-page" id="Bezeroak">
+            <div class="titulo">Guregan konfiantza duten enpresak</div>
+            <div class="irudiaZentratu">
+                <img src="./IMG/xampu3rna-logo 4.1-blank.png" class="enpresakXAMPU"> 
+                <img src="./IMG/Netplan Corp Logotipoa1.png" class="enpresak">
+                <img src="./IMG/ECG.png" class="enpresakECG">
+                <img src="./IMG/Zikss.png" class="enpresak">
+                <img src="./IMG/Dituro.png" class="enpresak">
+            </div>
+
+        </div>
+
+        <hr class="lerroa"></hr>
+
+        <!--Prezioa-->
+        <div class="scroll-page" id="Prezioa">
+
+            <div class="titulo">Gure eskaintza</div>
+
+                <table class="table">
+                    <tr>
+                        <th class="go"> </th>
+                        <th class="go">Dohako</th>
+                        <th class="go">Premiun</th>
+                        <th class="go">Platino</th>
+                        <th class="go">Enterprise</th>
+                    </tr>
+                    <tr>
+                        <th>Lekua</th>
+                        <td class="BaiEz">5GB</td>
+                        <td class="BaiEz">100GB</td>
+                        <td class="BaiEz">500GB</td>
+                        <td class="BaiEz">∞</td>
+                    </tr>
+                    <tr>
+                        <th>Korreo</th>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                    </tr>
+                    <tr>
+                        <th>Domeinu pertsonalizatua</th>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                    </tr>
+                    <tr>
+                        <th>Karpeta partekatuak</th>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                    </tr>
+                    <tr>
+                        <th>API</th>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">✓</td>
+                        <td class="BaiEz">✓</td>
+                    </tr>
+                    <tr>
+                        <th>CAU 24h</th>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">-</td>
+                        <td class="BaiEz">✓</td>
+                    </tr>
+                </table>
+            </div>
+            <hr class="lerroa"></hr>
+        </div>
+  
+        <div class="scroll-page" id="Nortzuk_gara">
+
+            <div class="titulo">Nortzuk Gara</div>
+
+            <p class="textua">
+                Lau pertsonako talde bat gara, eta uste dugu clouding enpresa baten garrantzitsuena dela, ez dakigula datuak seguru daudela eta zerbait gertatuz gero, gu beti egongo garela laguntzeko.
+            </p>
+
+
+
+            <div class="gorputza">
+
+                <p class="tituloa">Kontua sortu</p>
+                <form class="formularioa" action="https://formspree.io/f/xjvzjzeo" method="POST">
+                    <label for="erabiltzailea">Korreoa</label><br>
+                    <input type="text" id="erabiltzailea" name="erabiltzailea" placeholder="Korreoa"><br><br>
+                    <label for="pasahitza">Pasahitza</label><br>
+                    <input type="password" id="pasahitza" name="pasahitza" placeholder="Pasahitza"><br><br>
+                    <label for="text">Banku zenbakia</label><br>
+                    <input type="banku" id="banku" name="banku" placeholder="Banku zenbakia"><br><br>
+                    <label for="text">Telefono zenbakia</label><br>
+                    <input type="tel" id="tel" name="tel" value="+34"><br><br>
+                    <button type="submit" id="boton">Sortu Kontua</button>
+                </form>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
