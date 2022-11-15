@@ -834,3 +834,193 @@
         margin-left: 39rem;
     }
 }
+
+@media (max-width: 1680px) {
+    #kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        max-height: 4rem;
+        min-height: 4rem;
+        margin-left: -224px;
+        margin-right: 7px;
+        margin-top: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        margin-top: 1.2rem;
+        margin-top: 0.5rem;
+        top: var(--subir-kontua-sortu);
+        padding: 1.3rem;
+    }
+    #Deskripzioa .IMGDeskripzioa {
+        width: 42rem;
+        height: auto;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10rem;
+        top: 10rem;
+        right: 10rem;
+    }
+      #Funtzioak .sarbideAzkarra .IMGSarbideAzkarra {
+        width: 40rem;
+        height: auto;
+        position: relative;
+        left: 53rem;
+        top: 20rem;
+    }
+    #Funtzioak .erabilpenPertsonalizatua .IMGErabilpen {
+        width: 27rem;
+        height: auto;
+        position: relative;
+        left: 11rem;
+        top: 19rem;
+    }
+    #Funtzioak .erabilpenPertsonalizatua .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 50rem;
+    }
+    #Funtzioak .erabilpenPertsonalizatua .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 50rem;
+    }
+    #Funtzioak .segurtasuna .IMGSegurtasuna {
+        width: 27rem;
+        height: auto;
+        position: relative;
+        left: 10rem;
+        top: 23rem;
+    }
+    #Funtzioak .segurtasuna .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 50rem;
+    }
+    #Funtzioak .segurtasuna .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 50rem;
+    }
+}
+
+@media (max-width: 1600px) {
+    #kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        max-height: 4rem;
+        min-height: 4rem;
+        margin-left: -315px;
+        margin-right: 7px;
+        margin-top: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        margin-top: 1.2rem;
+        margin-top: 0.5rem;
+        top: var(--subir-kontua-sortu);
+        padding: 1.3rem;
+    }
+    #Deskripzioa .IMGDeskripzioa {
+        width: 42rem;
+        height: auto;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10rem;
+        top: 10rem;
+        right: 3rem;
+    }
+    #Funtzioak .sarbideAzkarra .titulo {
+        font-size: 40px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        line-height: 4rem;
+        color: black;
+        margin-left: 10rem;
+    }
+    #Funtzioak .sarbideAzkarra .texto {
+        margin-top: 2rem;
+        font-size: 12px;
+        max-width: 29rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 3px;
+        line-height: 1.5rem;
+        color: black;
+        margin-left: 10rem;
+    }
+    #Funtzioak .sarbideAzkarra .IMGSarbideAzkarra {
+        width: 40rem;
+        height: auto;
+        position: relative;
+        left: 42rem;
+        top: 20rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    #kontuaSortu {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+        letter-spacing: .25px;
+        max-height: 4rem;
+        min-height: 4rem;
+        margin-left: -500px;
+        margin-right: 7px;
+        margin-top: 1.5rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        background-color: var(--secondariBlueColor);
+        text-decoration: none;
+        border-radius: 2rem;
+        position: relative;
+        margin-top: 1.2rem;
+        margin-top: 0.5rem;
+        top: var(--subir-kontua-sortu);
+        padding: 1.3rem;
+    }
+    #Deskripzioa .IMGDeskripzioa {
+        width: 42rem;
+        height: auto;
+        position: absolute;
+        margin-left: 800px;
+        margin-top: 10rem;
+        top: 10rem;
+        right: 1rem;
+    }
+}
